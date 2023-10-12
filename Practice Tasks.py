@@ -13,7 +13,7 @@ for i in range(5):
     if reading[-1] == "F" or reading[-1] == "f":
         reading = reading[:-1]
 
-        reading = ((float(reading) - 32) * 5) /9
+        reading = ((float(reading) - 32) * 5) / 9
 
         TempReading.append(reading)
 
@@ -21,7 +21,7 @@ for i in range(5):
         reading = reading[:-1]
         TempReading.append(float(reading))
 
-print((TempReading))
+print(TempReading)
 print(max(TempReading))
 print(min(TempReading))
 print(mean(TempReading))
